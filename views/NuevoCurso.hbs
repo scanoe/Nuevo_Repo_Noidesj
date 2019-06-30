@@ -1,0 +1,27 @@
+{{>headerCoordinador}}
+<div  class="container">
+<h1>Ingreso de nuevo curso</h1>
+<form action="/IngresarCurso">
+<div class="form-group">
+    id <br>
+    <input type="number" class="form-group" name="id" id="id" ><br>
+    Nombre <br>
+    <input type="text"class="form-group" name="nombre" id="nombre" ><br>
+    Descripción <br>
+    <input type="text"class="form-group" name="descripcion" id="descripcion" ><br>
+    valor <br>
+    <input type="number"class="form-group" name="valor" id="valor" ><br>
+    modalidad <br>
+    <select name="modalidad" class="form-group" id="modalidad">
+        <option value="virtual">virtual</option>
+        <option value="presencial">presencial</option>
+    </select><br>
+    Intensidad horaria <br>
+    <input type="number" class="form-group" name= "Intensidad" id="Intensidad" ><br>
+  
+    <input type="submit" class="form-group" value="Enviar" name="sunbmit" id="submit">
+
+</div>
+</form>
+</div>
+{{>footer}}
